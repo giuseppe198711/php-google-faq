@@ -1,0 +1,74 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+header{
+  width: 100%;
+  height: 100px;
+  background-color: white;
+
+}
+
+.logo {
+  height: 70px;
+  width: 100px;
+}
+
+.privacy {
+  color: #5F6368;
+}
+
+ul {
+  display: flex;
+  color: black;
+  list-style: none;
+
+}
+
+li {
+  padding: 20px;
+}
+
+
+
+.sott:after {
+  content: "";
+  display: block;
+  height: 2px;
+  width: 120px;
+  background-color: #1A73E8;
+  margin: auto;
+  cursor: pointer;
+
+}
+
+.ul-top {
+  height: 100px / 2;
+  justify-content: flex-start;
+  margin-right: 200px;
+}
+
+.ul-bottom {
+  height: 100px / 2;
+  justify-content: flex-start;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+.dialog {
+  padding-top: 50px;
+  width: 80%;
+  margin: auto;
+}
+
+.question {
+  color: #3C4043;
+}
+
+.reply {
+  color: #3C4043;
+  margin-top: 30px;
+  margin-bottom: 70px;
+}
